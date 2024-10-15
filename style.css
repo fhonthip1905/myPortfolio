@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* background-color: black; */
+}
+
+/* navbar */
+
+.logo {
+  width: 60px;
+  border-radius: 40px;
+}
+
+.navbar-brand {
+  color: #ff7c91;
+  padding: 20px;
+  font-weight: 700;
+}
+.navbar-brand:hover {
+  color: #ff4766;
+}
+
+.icon-menu {
+  width: 40px;
+  color: #ff7c91;
+}
+
+.icon-menu:hover {
+  width: 46px;
+  /* border-radius: 80%; */
+  /* border: 2px solid #ff7c91 */
+}
+.modal {
+  z-index: 1;
+}
+.m1 {
+  color: pink;
+}
+/* navbar */
+
+/* about me */
+.container-about {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5;
+}
+.title-name {
+  color: #ff7c91;
+}
+.name {
+  font-size: 40px;
+  font-weight: 700;
+  border-bottom: 14px solid #ff7c91;
+}
+.box-name {
+  display: flex;
+}
+.lastname {
+  font-size: 40px;
+  font-weight: 700;
+}
+.col-myimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-image {
+  width: 420px;
+  opacity: 0.75;
+}
+.content {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon-contact {
+  width: 40px;
+  margin: 10px;
+}
+/* about me */
+/* skills */
+.container-skill {
+    padding: 20px;
+  }
+#skills {
+  height: auto;
+  background-color: #ffe0e5;
+  padding: 20px;
+}
+.title-skill {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ff4766;
+}
+
+.icon-skill {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 14px;
+}
+.text-skill {
+  font-weight: 500;
+  color: #ff4766;
+}
+.icon {
+  width: 70px;
+}
+.icon-css {
+  width: 62px;
+}
+.icon-ts {
+  width: 60px;
+}
+.icon-bt {
+  width: 50px;
+}
+/* skills */
+
+/* projects */
+.container-project {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10%;
+  }
+  .col-project{
+    height: 280px;
+  }
+.title-project {
+  font-size: 40px;
+  font-weight: 700;
+}
+.img-project{
+    width: 420px;
+}
+.img-project:hover{
+    width: 480px;
+}
+/* projects */
+
+@media screen and (max-width: 400px) {
+  .my-image {
+    width: 260px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+  .lastname {
+    font-size: 30px;
+  }
+
+  /* skills */
+  .title-skill {
+    font-size: 30px;
+  }
+  /* skills */
+}
